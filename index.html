@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interactive Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-top">
+        <a class="brand" href="#">Protfolio</a>
+        <div class="header-links">
+          <a href="#about" class="header-link">About</a>
+          <a href="#skills" class="header-link">Skills</a>
+          <a href="#contact" class="header-link">Contact</a>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="floating-shapes" aria-hidden="true">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 class="reveal">Hello, I'm Vidyashree Patil</h1>
+          <p class="reveal delay">Aspiring Full Stack Developer </p>
+        </div>
+        <div class="hero-avatar reveal delay-3">
+          <img src="assets/avatar.svg" alt="Avatar">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p>I am Computer Science and Engineering Student with a strong interest in web technologies.
+Passionate about learning front-end and back-end development.
+Skilled in building responsive and user-friendly applications.
+Eager to grow, improve skills, and contribute to real-world projects.</p>
+          <ul class="facts">
+            <li>Languages: HTML, CSS, JavaScript</li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">📝</div>
+          <h3>HTML</h3>
+          <p>Semantic markup & structure</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS</h3>
+          <p>Responsive & animated designs</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Interactive & dynamic web development</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p class="muted">Email:vidyakpatil007@gmail.com</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <div class="form-actions">
+          <button class="btn" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-hidden="true">
+    <button id="lb-close" class="lb-close">✕</button>
+    <img id="lb-img" src="" alt="">
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">© Your Name — Built with care.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
