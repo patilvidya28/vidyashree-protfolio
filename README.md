@@ -1,7 +1,7 @@
 # Personal Portfolio Website
 
 Author: Vidyashree Patil  
-Email: vidyashreepatil@gmail.com  
+Email: vidyakpatil007@gmail.com  
 
 About
 This is a simple personal portfolio website created using HTML, CSS, and JavaScript.  
@@ -17,3 +17,4 @@ Open the `index.html` file in any modern web browser.
 
 Hosting
 This project is hosted using GitHub Pages.
+
